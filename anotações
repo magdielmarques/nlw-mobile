@@ -1,0 +1,5 @@
+#diferenças entre reactJs e reactNative
+- não temos html, utilizamos elementos que já existem no react native;
+- etilização feita através da tag style
+- estilização feita com javascript 
+- 
