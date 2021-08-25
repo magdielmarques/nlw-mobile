@@ -7,3 +7,4 @@
 - obs.: utilizamos o conceito de fragment no App.tsx por conta de não haver como utilizar dois elementos juntos,
 é necessário que haja algo entre os componentes;
 - instalar fonts expo install expo-font @expo-google-fonts/ubunto @expo-google-fonts/roboto
+- executar como administrador npm install --global windows-build-tools
