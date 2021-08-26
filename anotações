@@ -8,3 +8,5 @@
 é necessário que haja algo entre os componentes;
 - instalar fonts expo install expo-font @expo-google-fonts/ubunto @expo-google-fonts/roboto
 - executar como administrador npm install --global windows-build-tools
+- https://docs.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1
+- https://digitalinnovation.one/artigos/como-habilitar-o-terminal-no-vscode-windows
