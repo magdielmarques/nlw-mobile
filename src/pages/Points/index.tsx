@@ -1,7 +1,13 @@
 import React from "react";
 import { View, Image, StyleSheet } from 'react-native'
 
-const styles = StyleSheet.create({
+const Points = () => {
+    return <View />;
+}
+
+export default Points;
+
+/*const styles = StyleSheet.create({
 container: {
     flex: 1,
     paddingHorizontal: 32,
@@ -97,3 +103,4 @@ itemTitle: {
     fontSize: 13,
 },
 });
+*/
