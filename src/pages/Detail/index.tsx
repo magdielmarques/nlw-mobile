@@ -1,7 +1,13 @@
 import React from "react";
 import { View, Image, StyleSheet } from 'react-native'
 
+const Detail = () => {
+    return <View />;
+}
 
+export default Detail;
+
+/*
 const styles = StyleSheet.create({
 container: {
     flex: 1,
@@ -75,3 +81,4 @@ buttonText: {
     fontFamily: 'Roboto_500Medium',
 },
 });
+*/
