@@ -12,6 +12,7 @@
     "@expo-google-fonts/ubuntu": "^0.2.0",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/stack": "^6.0.7",
+    "axios": "^0.21.4",
     "constants": "0.0.2",
     "expo": "~42.0.1",
     "expo-app-loading": "^1.1.2",
