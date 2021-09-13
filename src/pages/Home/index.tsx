@@ -3,6 +3,7 @@ import { Feather as Icon } from '@expo/vector-icons'
 import { View, ImageBackground, Image, StyleSheet, Text, TextInput,KeyboardAvoidingView,Platform } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
+import RNPickerSelect from 'react-native-picker-select';
 
 const Home = () => {
     const navigation = useNavigation<any>();
@@ -33,6 +34,16 @@ const Home = () => {
                         <Text style={styles.description}>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</Text>
                     </View>
                     
+                </View>
+                <View>
+                <RNPickerSelect
+                    onValueChange={(value) => console.log(value)}
+                    items={[
+                        { label: 'Football', value: 'football' },
+                        { label: 'Baseball', value: 'baseball' },
+                        { label: 'Hockey', value: 'hockey' },
+                    ]}
+                />
                 </View>
 
                 <View style={styles.footer}>
